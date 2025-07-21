@@ -62,7 +62,7 @@ let Message = document.getElementById('message');
 btnsCloseLoginpage.addEventListener("click", () => {
 for(let i=0 ; i< DataOFUsers.length;i++){     //                                                /
 if(checkIputEmail(i) && checkIputPass(i)){   // if two Condation(Email And Password) is True \/
-  window.open("http://127.0.0.1:5500/Home%20page/index.html");
+  window.open("../Home%20page/index.html");
   
 
 //  
